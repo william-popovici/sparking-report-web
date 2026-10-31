@@ -99,7 +99,7 @@ dl.facts dd,
   top: -30px;
   width: 260px;
   height: 176px;
-  background: url("/web/spark.png") no-repeat center / contain;
+  background: url("spark.png") no-repeat center / contain;
   opacity: .05;
   transform: rotate(-8deg);
   pointer-events: none;
