@@ -1,6 +1,8 @@
 # Sparking Capital - quarterly report builder
 
-The public front end of the report builder. It holds no data and no secrets:
-every action uses the visitor's own GitHub token against the private
-SparkingReportAPP repository, where the source of this page lives as
-web/github.html. Edit it there and copy it here as index.html.
+The short address of the report builder. index.html forwards to the Google web
+app (apps_script/website/ in the private SparkingReportAPP repository), which
+signs people in with Google and keeps the GitHub token to itself.
+
+styles.css and spark.png are served from here because the web app's page loads
+them: edit web/styles.css in SparkingReportAPP and copy it here.
